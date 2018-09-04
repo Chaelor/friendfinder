@@ -10,3 +10,10 @@
 .information{
     margin-bottom: 25px;
 }
+
+footer{
+    background-color: rgb(255, 158, 1);
+    padding: 30px;
+    border-top: 10px solid rgb(226, 128, 0);
+    text-align: center;
+}
