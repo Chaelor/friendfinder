@@ -5,16 +5,18 @@ const PATH = require('path');
 
 //Runs express and stores it into an "APP" variable
 const APP = express();
-const PORT = process.env.PORT || 3300;
+const PORT = process.env.PORT || 3300 || 8888;
 
 //Setup the Express APP to handle data parsing
 APP.use(bodyParser.urlencoded({ extended: true }));
 APP.use(bodyParser.json());
 
+//this handles the routing for both the api and the html
+require('./app/routing/htmlRoutes')(APP);
+//require('./app/routing/apiRoutes')(APP);
+
 APP.listen(PORT, function() {
     console.log(`Listening on port: ${PORT}`);
 });
 
-APP.get("/", function (req, res) {
-    res.sendFile(PATH.join("/app/public/", "home.html"));
-});
+
