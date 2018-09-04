@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,113 +19,158 @@
     <div class="container">
         <h2>Survey</h2>
         <hr>
-        <h3>About you</h3>
         <h4>Name (required)</h4>
         <input type="text" id="name">
-        <h4>Link to photo</h4>
-        <input type="text" id="photo">
+        <br><br>
+        <h4>Upload a photo</h4>
+        <input class="form-control-file" id="picture" type="file">
         <hr>
 
-        <h3>Question 1</h3>
-        <p>You like to be outdoors</p>
-        <select>
-            <option value="1">1 (Strongly Disagree)</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-            <option value="4">4</option>
-            <option value="5">5 (Strongly Agree)</option>
-        </select>
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <label class="input-group-text" for="inputGroupSelect1">1: You like to be outdoors</label>
+            </div>
+            <select class="custom-select" id="inputGroupSelect1">
+                <option selected="" value="0">How does this make you feel?</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+        </div>
 
-        <h3>Question 2</h3>
-        <p>You like video games</p>
-        <select>
-            <option value="1">1 (Strongly Disagree)</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-            <option value="4">4</option>
-            <option value="5">5 (Strongly Agree)</option>
-        </select>
-        
-        <h3>Question 3</h3>
-        <p>You enjoy Logan Paul's Youtube content</p>
-        <select>
-            <option value="1">1 (Strongly Disagree)</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-            <option value="4">4</option>
-            <option value="5">5 (Strongly Agree)</option>
-        </select>
-        
-        <h3>Question 4</h3>
-        <p>Sporty spice is the best spice</p>
-        <select>
-            <option value="1">1 (Strongly Disagree)</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-            <option value="4">4</option>
-            <option value="5">5 (Strongly Agree)</option>
-        </select>
-        
-        <h3>Question 5</h3>
-        <p>The earth is flat</p>
-        <select>
-            <option value="1">1 (Strongly Disagree)</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-            <option value="4">4</option>
-            <option value="5">5 (Strongly Agree)</option>
-        </select>
-        
-        <h3>Question 6</h3>
-        <p>You enjoy the sound of mechanical keyboards</p>
-        <select>
-            <option value="1">1 (Strongly Disagree)</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-            <option value="4">4</option>
-            <option value="5">5 (Strongly Agree)</option>
-        </select>
-        
-        <h3>Question 7</h3>
-        <p>Two spaces or a tab?</p>
-        <select>
-            <option value="1">1 (Strongly Disagree)</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-            <option value="4">4</option>
-            <option value="5">5 (Strongly Agree)</option>
-        </select>
-        
-        <h3>Question 8</h3>
-        <p>Generation 1 pokemon is the best</p>
-        <select>
-            <option value="1">1 (Strongly Disagree)</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-            <option value="4">4</option>
-            <option value="5">5 (Strongly Agree)</option>
-        </select>
-        
-        <h3>Question 9</h3>
-        <p>Veganism is where it's at</p>
-        <select>
-            <option value="1">1 (Strongly Disagree)</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-            <option value="4">4</option>
-            <option value="5">5 (Strongly Agree)</option>
-        </select>
-        
-        <h3>Question 10</h3>
-        <p>I expect the Spanish Inquisition</p>
-        <select>
-            <option value="1">1 (Strongly Disagree)</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-            <option value="4">4</option>
-            <option value="5">5 (Strongly Agree)</option>
-        </select>
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <label class="input-group-text" for="inputGroupSelect1">2: You like video games</label>
+            </div>
+            <select class="custom-select" id="inputGroupSelect1">
+                <option selected="" value="0">How does this make you feel?</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+        </div>
+
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <label class="input-group-text" for="inputGroupSelect1">3: You enjoy Logan Paul's Youtube content</label>
+            </div>
+            <select class="custom-select" id="inputGroupSelect1">
+                <option selected="" value="0">How does this make you feel?</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+        </div>
+
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <label class="input-group-text" for="inputGroupSelect1">4: Sporty spice is the best spice</label>
+            </div>
+            <select class="custom-select" id="inputGroupSelect1">
+                <option selected="" value="0">How does this make you feel?</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+        </div>
+
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <label class="input-group-text" for="inputGroupSelect1">5: The earth is flat</label>
+            </div>
+            <select class="custom-select" id="inputGroupSelect1">
+                <option selected="" value="0">How does this make you feel?</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+        </div>
+
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <label class="input-group-text" for="inputGroupSelect1">6: You enjoy the sound of mechanical keyboards</label>
+            </div>
+            <select class="custom-select" id="inputGroupSelect1">
+                <option selected="" value="0">How does this make you feel?</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+        </div>
+
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <label class="input-group-text" for="inputGroupSelect1">7: Two spaces or a tab?</label>
+            </div>
+            <select class="custom-select" id="inputGroupSelect1">
+                <option selected="" value="0">How does this make you feel?</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+        </div>
+
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <label class="input-group-text" for="inputGroupSelect1">8: Generation 1 pokemon is the best</label>
+            </div>
+            <select class="custom-select" id="inputGroupSelect1">
+                <option selected="" value="0">How does this make you feel?</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+        </div>
+
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <label class="input-group-text" for="inputGroupSelect1">9: Veganism is where it's at</label>
+            </div>
+            <select class="custom-select" id="inputGroupSelect1">
+                <option selected="" value="0">How does this make you feel?</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+        </div>
+
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <label class="input-group-text" for="inputGroupSelect1">10: I expect the Spanish Inquisition</label>
+            </div>
+            <select class="custom-select" id="inputGroupSelect1">
+                <option selected="" value="0">How does this make you feel?</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+            </select>
+        </div>
+        <br>
+        <button class="btn btn-primary" type="submit" id="submitBtn">Find your match!</button>
     </div>
 </body>
+<script type="text/javascript">
 
+
+</script>
 </html>
