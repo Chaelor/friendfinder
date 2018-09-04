@@ -3,10 +3,13 @@ const PATH = require('path');
 const friends = require('../data/friends');
 
 module.exports = function (app) {
+
+    //Give the user back data in the form of json for api calls.
     app.get("/api/friends", function (req, res) {
         res.json(friends);
     });
 
+    //Post data to the api
     app.post("/api/friends", function (req, res) {
         var userInput = req.body;
         var userScore = userInput.scores;

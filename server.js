@@ -15,6 +15,7 @@ APP.use(bodyParser.json());
 require('./app/routing/apiRoutes')(APP);
 require('./app/routing/htmlRoutes')(APP);
 
+//App is listenining
 APP.listen(PORT, function() {
     console.log(`Listening on port: ${PORT}`);
 });
