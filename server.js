@@ -11,6 +11,9 @@ const PORT = process.env.PORT || 3300 || 8888;
 APP.use(bodyParser.urlencoded({ extended: true }));
 APP.use(bodyParser.json());
 
+//For the css files
+APP.use(express.static(__dirname + '/app/public'));
+
 //this handles the routing for both the api and the html
 require('./app/routing/apiRoutes')(APP);
 require('./app/routing/htmlRoutes')(APP);
