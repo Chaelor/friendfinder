@@ -47,6 +47,54 @@ var friendsArray =
             5,
             1
         ]
+    },
+    {
+        "name": "Baby Fart McGeezax",
+        "photo": "https://yt3.ggpht.com/a-/ACSszfGYiasJli8HRURS5lmmoIucM0BSwpNET18xMQ=s900-mo-c-c0xffffffff-rj-k-no",
+        "scores": [
+            1,
+            3,
+            4,
+            5,
+            2,
+            3,
+            4,
+            2,
+            5,
+            2
+        ]
+    },
+    {
+        "name": "Bird Person",
+        "photo": "https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjm65_-u6LdAhVOUK0KHZoDByUQjRx6BAgBEAU&url=http%3A%2F%2Frickandmorty.wikia.com%2Fwiki%2FBirdperson&psig=AOvVaw3ZajzdbboHmF7Fwm-C596k&ust=1536188963956074",
+        "scores": [
+            1,
+            3,
+            2,
+            4,
+            5,
+            2,
+            3,
+            5,
+            2,
+            4
+        ]
+    },
+    {
+        "name": "Jake",
+        "photo": "https://media.giphy.com/media/10rMO9xsxzy5H2/giphy.gif",
+        "scores": [
+            3,
+            1,
+            4,
+            4,
+            1,
+            3,
+            4,
+            3,
+            2,
+            4
+        ]
     }
 ];
 
