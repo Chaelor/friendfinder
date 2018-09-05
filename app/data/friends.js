@@ -66,7 +66,7 @@ var friendsArray =
     },
     {
         "name": "Bird Person",
-        "photo": "https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjm65_-u6LdAhVOUK0KHZoDByUQjRx6BAgBEAU&url=http%3A%2F%2Frickandmorty.wikia.com%2Fwiki%2FBirdperson&psig=AOvVaw3ZajzdbboHmF7Fwm-C596k&ust=1536188963956074",
+        "photo": "https://vignette.wikia.nocookie.net/rickandmorty/images/b/b1/Birdperson.png/revision/latest?cb=20140415133633",
         "scores": [
             1,
             3,
@@ -82,7 +82,7 @@ var friendsArray =
     },
     {
         "name": "Jake",
-        "photo": "https://media.giphy.com/media/10rMO9xsxzy5H2/giphy.gif",
+        "photo": "https://orig00.deviantart.net/593d/f/2017/186/1/1/jake_adventure_time_vector_by_superawesomevectors-dbf72p0.jpg",
         "scores": [
             3,
             1,

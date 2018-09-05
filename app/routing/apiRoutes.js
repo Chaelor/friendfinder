@@ -15,12 +15,19 @@ module.exports = function (app) {
         var userScore = userInput.scores;
         var matchName = "";
         var matchPhoto = "";
+        var totalDifference = 55;
 
+        //Go through the friends array
         for (i in friends){
+            var difference = 0
+            //go through the user score array
             for (j in userScore) {
-                var difference = Math.abs(friends[i].scores[j] - userScore[j]);
+                
+                //Difference = absolute value of friends[index].scores[index] - userScore[j-index]
+                difference += Math.abs(friends[i].scores[j] - userScore[j]);
             }
-            if (difference) {
+            if (difference < totalDifference) {
+                totalDifference = difference;
                 matchName = friends[i].name;
                 matchPhoto = friends[i].photo;
             };
